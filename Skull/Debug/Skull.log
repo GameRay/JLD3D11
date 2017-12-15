@@ -1,0 +1,36 @@
+﻿生成启动时间为 2017/11/16 15:55:57。
+     1>项目“E:\VS2010\D3D\JLD3D11\Skull\Skull.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Skull.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SkullDemo.cpp /D "_DEBUG" 
+         SkullDemo.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2010\D3D\JLD3D11\Debug\Skull.exe" /NOLOGO d3d11.lib d3dx11d.lib D3DCompiler.lib Effects11d.lib dxerr.lib dxgi.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Skull.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS2010\D3D\JLD3D11\Debug\Skull.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2010\D3D\JLD3D11\Debug\Skull.lib" /MACHINE:X86 Debug\d3dApp.obj
+         Debug\d3dUtil.obj
+         Debug\GameTimer.obj
+         Debug\GeometryGenerator.obj
+         Debug\MathHelper.obj
+         Debug\SkullDemo.obj
+         LINK : 没有找到 E:\VS2010\D3D\JLD3D11\Debug\Skull.exe 或上一个增量链接没有生成它；正在执行完全链接
+            正在创建库 E:\VS2010\D3D\JLD3D11\Debug\Skull.lib 和对象 E:\VS2010\D3D\JLD3D11\Debug\Skull.exp
+     1>Effects11d.lib(d3dx11dbg.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(d3dx11dbg.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(d3dxGlobal.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(d3dxGlobal.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectAPI.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectAPI.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectLoad.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectLoad.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectNonRuntime.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectNonRuntime.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectReflection.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectReflection.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectRuntime.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectRuntime.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         Skull.vcxproj -> E:\VS2010\D3D\JLD3D11\Debug\Skull.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\VS2010\D3D\JLD3D11\Debug\Skull.exe;#1" /manifest Debug\Skull.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Skull.unsuccessfulbuild”。
+         正在对“Debug\Skull.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\VS2010\D3D\JLD3D11\Skull\Skull.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.68

@@ -1,0 +1,24 @@
+﻿生成启动时间为 2017/11/7 20:07:07。
+     1>项目“E:\VS2010\D3D\JLD3D11\JLD3D11\JLD3D11.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\JLD3D11.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Common\d3dApp.cpp
+         d3dApp.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2010\D3D\JLD3D11\Debug\JLD3D11.exe" /NOLOGO d3d11.lib d3dx11d.lib D3DCompiler.lib Effects11d.lib dxerr.lib dxgi.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\JLD3D11.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS2010\D3D\JLD3D11\Debug\JLD3D11.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2010\D3D\JLD3D11\Debug\JLD3D11.lib" /MACHINE:X86 Debug\d3dApp.obj
+         Debug\d3dUtil.obj
+         Debug\GameTimer.obj
+         "Debug\Init Direct3D.obj"
+         LINK : 没有找到 E:\VS2010\D3D\JLD3D11\Debug\JLD3D11.exe 或上一个增量链接没有生成它；正在执行完全链接
+         JLD3D11.vcxproj -> E:\VS2010\D3D\JLD3D11\Debug\JLD3D11.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\VS2010\D3D\JLD3D11\Debug\JLD3D11.exe;#1" /manifest Debug\JLD3D11.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\JLD3D11.unsuccessfulbuild”。
+         正在对“Debug\JLD3D11.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\VS2010\D3D\JLD3D11\JLD3D11\JLD3D11.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.21

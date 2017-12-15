@@ -1,0 +1,48 @@
+﻿生成启动时间为 2017/11/9 19:21:04。
+     1>项目“E:\VS2010\D3D\JLD3D11\Hills\Hills.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\Hills.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\Hills.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Performing Custom Build Tools
+         Microsoft (R) Direct3D Shader Compiler 9.29.952.3111
+         Copyright (C) Microsoft Corporation 2002-2009. All rights reserved.
+         
+         compilation succeeded; see color.cod
+         compilation succeeded; see E:\VS2010\D3D\JLD3D11\Hills\FX\color.fxo
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Common\d3dApp.cpp ..\Common\d3dUtil.cpp ..\Common\GameTimer.cpp ..\Common\GeometryGenerator.cpp ..\Common\MathHelper.cpp HillsDemo.cpp /D "_DEBUG" 
+         HillsDemo.cpp
+         MathHelper.cpp
+         GeometryGenerator.cpp
+         GameTimer.cpp
+         d3dUtil.cpp
+         d3dApp.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2010\D3D\JLD3D11\Debug\Hills.exe" /NOLOGO d3d11.lib d3dx11d.lib D3DCompiler.lib Effects11d.lib dxerr.lib dxgi.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Hills.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS2010\D3D\JLD3D11\Debug\Hills.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2010\D3D\JLD3D11\Debug\Hills.lib" /MACHINE:X86 Debug\d3dApp.obj
+         Debug\d3dUtil.obj
+         Debug\GameTimer.obj
+         Debug\GeometryGenerator.obj
+         Debug\MathHelper.obj
+         Debug\HillsDemo.obj
+            正在创建库 E:\VS2010\D3D\JLD3D11\Debug\Hills.lib 和对象 E:\VS2010\D3D\JLD3D11\Debug\Hills.exp
+     1>Effects11d.lib(d3dx11dbg.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(d3dx11dbg.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(d3dxGlobal.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(d3dxGlobal.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectAPI.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectAPI.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectLoad.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectLoad.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectNonRuntime.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectNonRuntime.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectReflection.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectReflection.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectRuntime.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectRuntime.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         Hills.vcxproj -> E:\VS2010\D3D\JLD3D11\Debug\Hills.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\VS2010\D3D\JLD3D11\Debug\Hills.exe;#1" /manifest Debug\Hills.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Hills.unsuccessfulbuild”。
+         正在对“Debug\Hills.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\VS2010\D3D\JLD3D11\Hills\Hills.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.99

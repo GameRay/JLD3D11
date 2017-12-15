@@ -1,0 +1,41 @@
+﻿生成启动时间为 2017/11/9 19:00:39。
+     1>项目“E:\VS2010\D3D\JLD3D11\Box\Box.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\Box.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\Box.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Common\d3dApp.cpp ..\Common\d3dUtil.cpp ..\Common\GameTimer.cpp ..\Common\GeometryGenerator.cpp ..\Common\MathHelper.cpp BoxDemo.cpp /D "_DEBUG" 
+         BoxDemo.cpp
+         MathHelper.cpp
+         GeometryGenerator.cpp
+         GameTimer.cpp
+         d3dUtil.cpp
+         d3dApp.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2010\D3D\JLD3D11\Debug\Box.exe" /NOLOGO d3d11.lib d3dx11d.lib D3DCompiler.lib Effects11d.lib dxerr.lib dxgi.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Box.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS2010\D3D\JLD3D11\Debug\Box.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2010\D3D\JLD3D11\Debug\Box.lib" /MACHINE:X86 Debug\d3dApp.obj
+         Debug\d3dUtil.obj
+         Debug\GameTimer.obj
+         Debug\GeometryGenerator.obj
+         Debug\MathHelper.obj
+         Debug\BoxDemo.obj
+            正在创建库 E:\VS2010\D3D\JLD3D11\Debug\Box.lib 和对象 E:\VS2010\D3D\JLD3D11\Debug\Box.exp
+     1>Effects11d.lib(d3dx11dbg.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(d3dx11dbg.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(d3dxGlobal.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(d3dxGlobal.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectAPI.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectAPI.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectLoad.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectLoad.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectNonRuntime.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectNonRuntime.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectReflection.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectReflection.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectRuntime.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“Effects11d.lib(EffectRuntime.obj)”或在“E:\VS2010\D3D\JLD3D11\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         Box.vcxproj -> E:\VS2010\D3D\JLD3D11\Debug\Box.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\VS2010\D3D\JLD3D11\Debug\Box.exe;#1" /manifest Debug\Box.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Box.unsuccessfulbuild”。
+         正在对“Debug\Box.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\VS2010\D3D\JLD3D11\Box\Box.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.11
