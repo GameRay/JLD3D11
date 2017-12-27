@@ -83,3 +83,26 @@ void GameTimer::Stop()
 	}
 		
 }
+void GameTimer::Tick()
+{
+
+	if(mStopped)
+	{
+		mDeltaTime=0.0;
+		return;
+	}
+
+	__int64 currTime;
+	QueryPerformanceCounter((LARGE_INTEGER*)&currTime);
+	mCurrTime=currTime;
+
+	mDeltaTime=(mCurrTime-mPrevTime)*mSecondsPerCount;
+
+	mPrevTime=mCurrTime;//
+	//省电模式或者切换处理器计算出来的mDeltaTime可能是负的，这里强制非负。
+	if(mDeltaTime<0.0)
+	{
+
+		mDeltaTime=0.0;
+	}
+}
