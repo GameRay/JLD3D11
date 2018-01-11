@@ -44,7 +44,7 @@ float GameTimer::DeltaTime() const
 	return(float)mDeltaTime;
 }
 
-float GameTimer::Reset()
+void GameTimer::Reset()
 {
 
 	__int64 currTime;
