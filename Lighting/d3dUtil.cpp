@@ -6,8 +6,7 @@ ID3D11ShaderResourceView* d3dHelper::CreateTexture2DArraySRV( ID3D11Device*devic
 	//使用方式是D3D11_USAGE_STAGING，从GPU拷贝到CPU//
 	UINT size=filenames.size();
 	std::vector<ID3D11Texture2D*>srcTex(size);
-	for (UINT i=0;i<size;++i)
-	{
+	for (UINT i=0;i<size;++i){
 		D3DX11_IMAGE_LOAD_INFO loadInfo;
 		loadInfo.Width=D3DX11_FROM_FILE;
 		loadInfo.Height=D3DX11_FROM_FILE;
@@ -64,14 +63,12 @@ ID3D11ShaderResourceView* d3dHelper::CreateTexture2DArraySRV( ID3D11Device*devic
 	//
 	ReleaseCOM(texArray);
 	for (UINT i=0;i<size;++i)
-	{
 		ReleaseCOM(srcTex[i]);
-	}
 
 	return texArraySRV;
 
 }
-ID3D11ShaderResourceView*d3dHelper::CreateRandomTexture1DSRV(ID3D11Device*device)
+ID3D11ShaderResourceView* d3dHelper::CreateRandomTexture1DSRV(ID3D11Device* device)
 {
 
 	//创建随机数据//
@@ -116,7 +113,7 @@ ID3D11ShaderResourceView*d3dHelper::CreateRandomTexture1DSRV(ID3D11Device*device
 
 
 	return randomTexSRV;
-
+}
 }
 //提取平截头体的面//
 void ExtractFrustumPlanes(XMFLOAT4 planes[6],CXMMATRIX M)
@@ -176,4 +173,4 @@ void ExtractFrustumPlanes(XMFLOAT4 planes[6],CXMMATRIX M)
 		XMVECTOR v=XMPlaneNormalize(XMLoadFloat4(&planes[i]));
 		XMStoreFloat4(&planes[i],v);
 	}
-}
+};

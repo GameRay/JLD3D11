@@ -23,11 +23,9 @@
 
 #if defined(DEBUG) | defined(_DEBUG)
 #ifndef HR
-#define HR(x) 
-	{
+#define HR(x) {
 		HRESULT hr = (x);//x函数返回值返回类型为HRESULT，小于0失败//
-		if(FAILED(hr))
-		{
+		if(FAILED(hr)){
 			DXTrace(__FILE__, (DWORD)__LINE__, hr, L#x, true);//当前文件通常为__FILE__，当前行__LINE__,一个将被跟踪到调试流的HRESULT,一个将被跟踪到调试流的宽字符串（可能是空）通过L#转化为宽字符串，bool是否弹出消息框//
 
 		}
@@ -59,7 +57,7 @@ public:
 		UINT filter=D3DX11_FILTER_NONE,
 		UINT mipFilter=D3DX11_FILTER_LINEAR
 		);
-	static ID3D11ShaderResourceView*CreateRandomTexture1DSRV(ID3D11Device*device);
+	static ID3D11ShaderResourceView* CreateRandomTexture1DSRV(ID3D11Device* device);
 };
 
 
