@@ -38,7 +38,7 @@ protected:
 
 protected:
 	HINSTANCE mhAppInst;//应用程序实例句柄///双击QQ快捷方式, 会启动一个qq程序, 假设给它个编号9527;
-	//再双击QQ快捷方式, 又启动了一个新的qq, 假设编号9528;
+	//再双击QQ快捷方式, 又启动了一个新的qq, 假设编号9528;，
 	//对于9528来说, hInstance=9528，这个值从WinMain(HINSTANCE hInstance, HINSTANCE prevInstance,PSTR cmdLine, int showCmd)传过来,创建完类对象实例后取得值HINSTANCE，再将其传递给HINSTANCE注册窗口函数//
 	HWND mhMainWnd;//主窗口句柄//
 	bool mAppPaused;//是否处于暂停状态//
